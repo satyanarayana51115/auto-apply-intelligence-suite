@@ -1,0 +1,21 @@
+# Environment variables & API Keys (CRITICAL)
+.env
+.env.*
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Streamlit configurations
+.streamlit/secrets.toml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+.pytest_cache/
