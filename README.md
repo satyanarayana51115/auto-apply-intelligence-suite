@@ -58,37 +58,39 @@ An autonomous multi-agent recruitment and executive outreach engine built with *
    ```
 
 2. **Configure Virtual Environment**
-```
-python -m venv .venv
-```
+   ```
+   python -m venv .venv
+   ```
+   
    #### On Windows:
-```
-.venv\Scripts\activate
-```
+   ```
+   .venv\Scripts\activate
+   ```
 
    #### On macOS/Linux:
-```
-source .venv/bin/activate
-```
+   ```
+   source .venv/bin/activate
+   ```
 
 3. **Install Dependencies**
-```
-pip install -r requirements.txt
-```
+   ```
+   pip install -r requirements.txt
+   ```
 
 4. **Setup Environment Variables
 ​   Create a .env file in the root folder:**
 
-```
-GEMINI_API_KEY=your_gemini_api_key_here
-```
+   ```
+   GEMINI_API_KEY=your_gemini_api_key_here
+   ```
 
 5. **Launch Application**
-```
-streamlit run app.py
-```
+   ```
+   streamlit run app.py
+   ```
 
 ## 📸 Output Preview
 
 * **ATS Alignment Telemetry:** Dynamic Plotly gauge visualizing candidate fit percentage.
 * **Executive Pitch:** Actionable technical value proposition ready for direct outreach on LinkedIn or InMail.
+```
