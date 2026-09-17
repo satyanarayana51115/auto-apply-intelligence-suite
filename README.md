@@ -64,11 +64,6 @@ An autonomous multi-agent recruitment and executive outreach engine built with *
    ```
    .venv\Scripts\activate
    ```
-
-<<<<<<< HEAD
-<p align="center"><img src="assets/dark_img.png" width="95%" alt="dark_image"/></p>
-<p align="center"><img src="assets/light_img.png" width="95%" alt="light_image"/></p>
-=======
    #### On macOS/Linux:
    ```
    source .venv/bin/activate
@@ -95,4 +90,5 @@ An autonomous multi-agent recruitment and executive outreach engine built with *
 
 * **ATS Alignment Telemetry:** Dynamic Plotly gauge visualizing candidate fit percentage.
 * **Executive Pitch:** Actionable technical value proposition ready for direct outreach on LinkedIn or InMail.
->>>>>>> 4e58947a6ab56171ab535717144b18497b210a44
+
+
