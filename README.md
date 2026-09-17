@@ -86,7 +86,7 @@ An autonomous multi-agent recruitment and executive outreach engine built with *
 
 5. **Launch Application**
 ```
-   streamlit run app.py
+streamlit run app.py
 ```
 
 ## 📸 Output Preview
