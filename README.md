@@ -47,12 +47,10 @@ An autonomous multi-agent recruitment and executive outreach engine built with *
 ​   * **Data Visualization:** Plotly Graph Objects
 ​   * **Environment:** Python 3.11+ / 3.13
 
-```
 
 ​## ⚡Getting Started
 
 ​1. Clone the Repository
-```
 git clone https://github.com/satyanarayana51115/auto-apply-intelligence-suite.git
 cd auto-apply-intelligence-suite
 ```
