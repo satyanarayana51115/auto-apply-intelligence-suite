@@ -39,7 +39,7 @@ An autonomous multi-agent recruitment and executive outreach engine built with *
 
 ```
 
- ## 🛠️ Tech Stack
+## 🛠️ Tech Stack
    
 ​ * **Core Framework:** CrewAI.
 ​ * **LLM Engine:** Google Gemini 2.0 Flash via LiteLLM.
@@ -49,7 +49,7 @@ An autonomous multi-agent recruitment and executive outreach engine built with *
 
 ## ⚡Getting Started
 
-​1. Clone the Repository
+​ 1. Clone the Repository
 ```
    git clone https://github.com/satyanarayana51115/auto-apply-intelligence-suite.git
    cd auto-apply-intelligence-suite
