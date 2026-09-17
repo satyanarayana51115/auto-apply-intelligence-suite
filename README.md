@@ -60,9 +60,13 @@ An autonomous multi-agent recruitment and executive outreach engine built with *
    
    ```
    python -m venv .venv
+   ```
    ### On Windows:
+   ```
    .venv\Scripts\activate
+   ```
    ### On macOS/Linux:
+   ```
    source .venv/bin/activate
    ```
 
