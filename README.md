@@ -91,9 +91,3 @@ An autonomous multi-agent recruitment and executive outreach engine built with *
 
 * **ATS Alignment Telemetry:** Dynamic Plotly gauge visualizing candidate fit percentage.
 * **Executive Pitch:** Actionable technical value proposition ready for direct outreach on LinkedIn or InMail.
-
-<p align="center"><img src="assets/dark_img.png" width="95%" alt="dark_image"/></p>
-<p align="center"><img src="assets/light_img.png" width="95%" alt="light_image"/></p>
-  
-  
-
