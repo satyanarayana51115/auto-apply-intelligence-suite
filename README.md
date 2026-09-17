@@ -38,6 +38,7 @@ An autonomous multi-agent recruitment and executive outreach engine built with *
  [ Streamlit Speedometer (0-100%) + Executive Brief + TXT Exporter ]
 
 ```
+
  ## 🛠️ Tech Stack
 
 ​* **Core Framework:** CrewAI
@@ -52,8 +53,8 @@ An autonomous multi-agent recruitment and executive outreach engine built with *
 
 ​1. Clone the Repository
 ```
-   git clone https://github.com/satyanarayana51115/auto-apply-intelligence-suite.git
-   cd auto-apply-intelligence-suite
+git clone https://github.com/satyanarayana51115/auto-apply-intelligence-suite.git
+cd auto-apply-intelligence-suite
 ```
 2. Configure Virtual Environment
 
