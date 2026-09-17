@@ -50,12 +50,12 @@ An autonomous multi-agent recruitment and executive outreach engine built with *
 
 ## ⚡Getting Started
 
-​1. **Clone the Repository**
 
-```
-git clone https://github.com/satyanarayana51115/auto-apply-intelligence-suite.git
-cd auto-apply-intelligence-suite
-```
+​1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/satyanarayana51115/auto-apply-intelligence-suite.git
+   cd auto-apply-intelligence-suite
+   ```
 
 2. **Configure Virtual Environment**
 ```
