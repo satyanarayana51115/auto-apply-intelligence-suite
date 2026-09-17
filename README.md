@@ -50,14 +50,14 @@ An autonomous multi-agent recruitment and executive outreach engine built with *
 
 ## ⚡Getting Started
 
-​1. Clone the Repository
+​1. **Clone the Repository**
 
 ```
 git clone https://github.com/satyanarayana51115/auto-apply-intelligence-suite.git
 cd auto-apply-intelligence-suite
 ```
 
-2. Configure Virtual Environment
+2. **Configure Virtual Environment**
 ```
 python -m venv .venv
 ```
@@ -71,19 +71,19 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-3. Install Dependencies
+3. **Install Dependencies**
 ```
 pip install -r requirements.txt
 ```
 
-4. Setup Environment Variables
-​   Create a .env file in the root folder:
+4. **Setup Environment Variables
+​   Create a .env file in the root folder:**
 
 ```
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-5. Launch Application
+5. **Launch Application**
 ```
 streamlit run app.py
 ```
