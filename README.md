@@ -40,13 +40,13 @@ An autonomous multi-agent recruitment and executive outreach engine built with *
 ```
 
  ## 🛠️ Tech Stack
-
+   
 ​   * **Core Framework:** CrewAI
 ​   * **LLM Engine:** Google Gemini 2.0 Flash via LiteLLM
 ​   * **Frontend UI:** Streamlit
 ​   * **Data Visualization:** Plotly Graph Objects
 ​   * **Environment:** Python 3.11+ / 3.13
-
+```
 
 ​## ⚡Getting Started
 
