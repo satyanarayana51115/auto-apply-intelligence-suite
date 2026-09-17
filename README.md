@@ -37,46 +37,47 @@ An autonomous multi-agent recruitment and executive outreach engine built with *
                  ▼
  [ Streamlit Speedometer (0-100%) + Executive Brief + TXT Exporter ]
 
- 🛠️ Tech Stack
-​Core Framework: CrewAI
-​LLM Engine: Google Gemini 2.0 Flash via LiteLLM
-​Frontend UI: Streamlit
-​Data Visualization: Plotly Graph Objects
-​Environment: Python 3.11+ / 3.13
+```
+ ## 🛠️ Tech Stack
 
-​⚡ Getting Started
+​**Core Framework:** CrewAI
+​**LLM Engine:** Google Gemini 2.0 Flash via LiteLLM
+​**Frontend UI:** Streamlit
+​**Data Visualization:** Plotly Graph Objects
+​**Environment:** Python 3.11+ / 3.13
+
+```
+​## ⚡Getting Started
 
 ​1. Clone the Repository
-```bash
-
-git clone https://github.com/satyanarayana51115/auto-apply-intelligence-suite.git
-cd auto-apply-intelligence-suite
-```
-
+   ```
+   git clone https://github.com/satyanarayana51115/auto-apply-intelligence-suite.git
+   cd auto-apply-intelligence-suite
+   ```
 2. Configure Virtual Environment
-
-python -m venv .venv
-### On Windows:
-.venv\Scripts\activate
-### On macOS/Linux:
-source .venv/bin/activate
-```
+   ```
+   python -m venv .venv
+   ### On Windows:
+   .venv\Scripts\activate
+   ### On macOS/Linux:
+   source .venv/bin/activate
+   ```
 3. Install Dependencies
-```
-pip install -r requirements.txt
-```
+   ```
+   pip install -r requirements.txt
+   ```
 4. Setup Environment Variables
-​Create a .env file in the root folder:
-```
-GEMINI_API_KEY=your_gemini_api_key_here
-```
+​   Create a .env file in the root folder:
+   ```
+   GEMINI_API_KEY=your_gemini_api_key_here
+   ```
 5. Launch Application
-```
-streamlit run app.py
-```
-📸 Output Preview
+   ```
+   streamlit run app.py
+   ```
+## 📸 Output Preview
 
 ​* **ATS Alignment Telemetry:** Dynamic Plotly gauge visualizing candidate fit percentage.
-
 ​* **Executive Pitch:** Actionable technical value proposition ready for direct outreach on LinkedIn or InMail.
+   ```
 
