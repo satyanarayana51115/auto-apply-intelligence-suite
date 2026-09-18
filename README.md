@@ -74,21 +74,18 @@ GEMINI_API_KEY=your_gemini_api_key_here
 ```
 streamlit run app.py
 ```
-📸 Output Preview
-
-​* **ATS Alignment Telemetry:** Dynamic Plotly gauge visualizing candidate fit percentage.
-​* **Executive Pitch:** Actionable technical value proposition ready for direct outreach on LinkedIn or     InMail.
 
 ```
-
 ## 📸 Output Preview
+
+
 
 ### 🌙 Dark Mode Interface
 ![Dark Mode Dashboard](assets/dark_img.png)
 
----
+
 
 ### ☀️ Light Mode Telemetry
 ![Light Mode Dashboard](assets/light_img.png)
 
-
+```

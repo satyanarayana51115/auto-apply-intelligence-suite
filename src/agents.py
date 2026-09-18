@@ -6,9 +6,9 @@ load_dotenv()
 
 # Gemini LLM Setup via CrewAI / LiteLLM format
 gemini_llm = LLM(
-    model="gemini/gemini-2.0-flash-exp",
+    model="gemini/gemini-3.6-flash",
     api_key=os.getenv("GEMINI_API_KEY"),
-    temperature=0.3
+    temperature=0.0
 )
 
 def create_matcher_agent():
