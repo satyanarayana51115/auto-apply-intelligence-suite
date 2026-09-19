@@ -47,3 +47,27 @@ if __name__ == "__main__":
     output = suite.run_suite(sample_resume, sample_jd, company)
     print("\n--- EXECUTION OUTPUT ---\n")
     print(output["full_output"])
+
+def run_batch_pipeline(candidate_profile, jobs_list):
+    suite = AutoApplyIntelligenceSuite()
+    run_func = getattr(suite, "run_suite", getattr(suite, "run", None))
+    
+    batch_results = []
+    for index, job in enumerate(jobs_list, 1):
+        company_name = job.get("company", f"Company #{index}")
+        job_desc = job.get("description", "")
+        
+        # కీవర్డ్ ఆర్గ్యుమెంట్ కాకుండా నేరుగా పొజిషనల్ ఆర్గ్యుమెంట్లుగా పంపడం
+        try:
+            res = run_func(candidate_profile, job_desc, company_name)
+        except TypeError:
+            res = run_func(candidate_profile, job_desc)
+        
+        # ఫలితం డిక్షనరీ అయినా లేదా ఆబ్జెక్ట్ అయినా టెక్స్ట్‌ను సురక్షితంగా తీసుకోవడం
+        out_text = res.get("full_output", str(res)) if isinstance(res, dict) else str(res)
+        
+        batch_results.append({
+            "company": company_name,
+            "output": out_text
+        })
+    return batch_results
