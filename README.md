@@ -109,10 +109,8 @@ pytest
 
 ## 📸 Output Preview
 
-### Batch Engine Dashboard
-![Batch Dashboard](assets/batch_preview.png)
+### Single Role Interface
+![Telemetry Dashboard](assets/dark_img.png)
 
----
-
-## 🛡️ License
-Distributed under the MIT License.
+### Light Mode View
+![Light Mode Dashboard](assets/light_img.png)
