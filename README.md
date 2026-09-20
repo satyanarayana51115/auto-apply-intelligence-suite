@@ -114,5 +114,16 @@ streamlit run batch_app.py
 ```
 pytest -v
 ```
+---
+## 📸 Visual Execution Proofs
+### 1. Multi-Agent ATS Matching & Executive Brief
 
+| Dark Mode Telemetry | Light Mode Telemetry |
+| :--- | :--- |
+| ![Dark Preview](assets/dark_img.png) | ![Light Preview](assets/light_img.png) |
 
+### 2. Autonomous Playwright Browser Execution Proofs
+
+| Company Application Proof | Pytest Automated Test Proof |
+| :--- | :--- |
+| ![Company Apply Proof](application_proofs/company_a_applied.png) | ![Test Proof](application_proofs/testcompany_applied.png) |
