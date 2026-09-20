@@ -39,7 +39,7 @@ An autonomous multi-agent AI system designed to bridge the gap between candidate
                                                    • Headless / Managed Browser
                                                    • Autonomous Form Filling
                                                    • Visual Verification Screenshot
-```                                         
+```      
 
 ## ✨ Key Engineering Features
 
@@ -49,17 +49,18 @@ An autonomous multi-agent AI system designed to bridge the gap between candidate
 * **​Production-Calibrated Output:**
     Pitches are structured with bold executive highlights, quantitative performance metrics (e.g., latency reduction, token economics, API reliability), and direct calls to action.
 
-​* **Playwright Autonomous Application:**
+* **Playwright Autonomous Application:**
     Automatically launches the browser, populates application form fields with candidate metadata and tailored pitches, and records execution proofs.
 
-​* **State Persistence & Clean UX:**
+* **State Persistence & Clean UX:**
     Custom CSS styling optimized for zero-scroll single-window operations, preserving state and download actions across re-renders.
 
-​* **Automated Verification:**
+* **Automated Verification:**
     Comprehensive test suite implemented via pytest validating browser automation reliability and artifact creation.
 
+---
 
-​## 📁 Repository Structure
+## 📁 Repository Structure
 
 ```text
 auto-apply-intelligence-suite/
