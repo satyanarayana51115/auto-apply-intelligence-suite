@@ -87,23 +87,26 @@ git clone https://github.com/satyanarayana51115/auto-apply-intelligence-suite.gi
 cd auto-apply-intelligence-suite
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
+```
+2. **Install Dependencies & Playwright Browsers**
+```
 pip install -r requirements.txt
 playwright install chromium
 ```
-2. **Configure Environment Variables**
+3. **Configure Environment Variables**
    Create a .env file in the root directory:
 
 ```
 GEMINI_API_KEY=your_google_gemini_api_key
 ```
 
-3. **Launch the Application**
+4. **Launch the Application**
 
 ```
 streamlit run batch_app.py
 ```
 
-4. **Run Automated Tests**
+5. **Run Automated Tests**
 
 ```
 pytest -v
